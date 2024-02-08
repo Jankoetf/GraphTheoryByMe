@@ -2,7 +2,7 @@
 Graphs Graphs Graphs
 
 # 1. Comparing DFS, BFS, A* on labyrinth problem
-[data_analysis_preprocessing.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_data_analysis_preprocessing.ipynb)
+[data_analysis_preprocessing.ipnb](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/labyrinth)
 - Data analysis:
   
 This is all about understanding features, what they represent. These are worthy of attention:
