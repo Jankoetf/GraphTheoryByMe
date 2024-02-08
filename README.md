@@ -4,16 +4,27 @@ Graphs Graphs Graphs
 # 1. Ford Furkenson algorithm
 [fordFurksenon.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/fordFurksenon.py)
 
-- Example
+**Example: Jobs and workers**
+- One worker can do at max one job
+- Every job can have at max one worker doing it
+- What is a maximum number of workers that can get a job?
+<p>
+    <img src="Pictures/Ford%20Furkenson/s1.PNG" alt="Alt Text" width="428" height="286" alt> 
+</p>
 
+- First Iteration
 <p>
-    <em>Small Regular Labyrinth</em> <img src="Pictures/ford Furksenon/s1.PNG" alt="Alt Text" width="228" height="126" alt> 
-    <em>Labyrinth without Path</em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
+    <img src="Pictures/Ford%20Furkenson/s2.PNG" alt="Alt Text" width="428" height="286" alt> 
+    <img src="Pictures/Ford%20Furkenson/s3.PNG" alt="Alt Text" width="428" height="286" alt> 
 </p>
+
+- Second Iteration
 <p>
-    <em>Big Labyrint</em> <img src="Pictures/Lavirint/big.PNG" alt="Alt Text" width="228" height="126" alt>
-    <em>Small empty labyrinth</em> <img src="Pictures/Lavirint/empty.PNG" alt="Alt Text" width="228" height="126" alt>
+    <img src="Pictures/Ford%20Furkenson/s4.PNG" alt="Alt Text" width="428" height="286" alt> 
+    <img src="Pictures/Ford%20Furkenson/s5.PNG" alt="Alt Text" width="428" height="286" alt> 
 </p>
+On this specific example we get that maximum 2 workers can get a job.
+
 
 # 2. Comparing DFS, BFS, A* on labyrinth problem
 [Labyrinth.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/lavirint.py)
@@ -42,24 +53,11 @@ Graphs Graphs Graphs
 
 
 # 3. Weighted graph, Djakstra algo
-[Regression.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_regression.ipynb)
-[Neural.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_neural.ipynb)
+[Labyrinth.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/lavirint.py)
+<p>
+    <em> Weighted Graph </em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
+</p>
 
-- Split
-
-I did splitting into train, val, test set both with train_test_split function and manualy leaving grouped property of clubs in the same league, for easier post processing later. [Copy_of_package.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Copy_of_Package.ipynb)
-
-- Hyperparameter tunning
-
-Im using two step tunning aproach - hyperparameters tuning is splited into tuning of architecture parameters and tunning of regularization hyperparameters.
-
-- Post-procesing
-
-We see that every model predict conservatevly around 7.5 when it is unsertain.
-
-<img src="Screeens/conservative.PNG" alt="Alt Text" width="312" height="256">
-
-In order to transform predictions in meaningfull values I tried different post_processing functions, the simplest one has shown best performance(just rounding predictions in range 1, 14).
 
 # 4. General Graphs
 [Generating_results.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_generating_results.ipynb)
