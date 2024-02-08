@@ -72,8 +72,10 @@ On this specific example we get that maximum 2 workers can get a job.
 </p>
 
 # 6. Bfs, Dfs paths, Practice problems
+- Path reconstruction BFS, DFS
 [bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
 
+- Practice problems
 [Graphs_practice.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Graphs_practice.py)
 
 ## **Thank you for exploring my Repo!** 
