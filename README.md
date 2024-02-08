@@ -2,26 +2,17 @@
 Graphs Graphs Graphs
 
 # 1. Comparing DFS, BFS, A* on labyrinth problem
-[data_analysis_preprocessing.ipnb](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/labyrinth)
-- Data analysis:
-  
-This is all about understanding features, what they represent. These are worthy of attention:
-**league_id**: this is not just random generated id, but actually very important feature, it turns out that the bigger this league_id is the better that league_is - clubs in this league are better, we can see that by many corelations like:
+[Labyrinth.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/lavirint.py)
 
-<img src="Screeens/global.PNG" alt="Alt Text" width="312" height="256"> <img src="Screeens/payment.PNG" alt="Alt Text" width="312" height="256">
+-  Simulation Results:
 
-**club_id** again not just random generated number, but actually this id is generated in order, the bigger this id is that club created later
+| Labyrinth          | DFS | BFS | A*  |
+|--------------------|-----|-----|-----|
+| small regular      | 30  | 21  | 13 |
+| small no path      | 18  | 9   |  8 |
+| big many obstacles | 89  | 93  | 28 |
+| small empty        | 895 | 154 |  9 |
 
-<img src="Screeens/club.PNG" alt="Alt Text" width="256" height="376">
-
-- Preprocessing
-
-I made two different preprocessing functions, one using both categorical features, one without them, you can see all functions in: 
-[Copy_of_package.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Copy_of_Package.ipynb)
-
-- Results simulation
-
-Highest possible MAE is 7, if we generate predictions randomly it is oround 4.63, and if we generate for all predictions 7.5 we get 3.5 for MAE.
 
 
 # 2. Ford Furkenson algorithm
