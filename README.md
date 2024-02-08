@@ -68,7 +68,7 @@ On this specific example we get that maximum 2 workers can get a job.
 # 5. 2 Best picks task
 [top_sort_cycle_detection.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/top_sort_cycle_detection.py)
 <p>
-    <em> Directed Graph </em> <img src="Pictures/bfs_dfs_path.PNG" alt="Alt Text" width="388" height="256" alt>
+    <img src="Pictures/pick_two.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
 # 6. Bfs, Dfs paths, Practice problems
