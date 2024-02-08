@@ -66,7 +66,7 @@ On this specific example we get that maximum 2 workers can get a job.
 </p>
 
 # 5. 2 Best picks task
-[top_sort_cycle_detection.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/top_sort_cycle_detection.py)
+[Maximize_Two_Picks.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Maximize_Two_Picks.py)
 <p>
     <img src="Pictures/pick_two.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
