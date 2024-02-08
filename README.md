@@ -53,18 +53,24 @@ On this specific example we get that maximum 2 workers can get a job.
 
 
 # 3. Weighted graph, Djakstra algo
-[GraphAlgos_Djakstra.py.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/GraphAlgos_Djakstra.py.py)
+[GraphAlgos_Djakstra.py.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/GraphAlgos_Djakstra.py)
 <p>
     <em> Weighted Graph </em> <img src="Pictures/djakstra.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
 
-# 4. General Graphs
-[Generating_results.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_generating_results.ipynb)
-I choosed best neural network to generate results.
+# 4. Topsort, Cycle detection
+[GraphAlgos_Djakstra.py.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/GraphAlgos_Djakstra.py)
+<p>
+    <em> Directed Graph </em> <img src="Pictures/practice.PNG" alt="Alt Text" width="388" height="256" alt>
+</p>
 
-- **Resulting dataset**
-[results.csv](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/league_rank_predictions.csv)
+# 5. Bfs, Dfs paths, practice
+[bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
+
+
+
+
 
 ## **Thank you for exploring my project!** 
 If you'd like to learn more about my background and qualifications, please visit my [LinkedIn profile](https://www.linkedin.com/in/jankomitrovic)
