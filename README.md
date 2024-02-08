@@ -65,7 +65,7 @@ On this specific example we get that maximum 2 workers can get a job.
     <em> Directed Graph </em> <img src="Pictures/bfs_dfs_path.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
-# 5. 2 Best picks task
+# 5. Best two picks task
 [Maximize_Two_Picks.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Maximize_Two_Picks.py)
 <p>
     <img src="Pictures/pick_two.PNG" alt="Alt Text" width="388" height="256" alt>
