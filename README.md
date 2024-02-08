@@ -60,17 +60,15 @@ On this specific example we get that maximum 2 workers can get a job.
 
 
 # 4. Topsort, Cycle detection
-[GraphAlgos_Djakstra.py.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/GraphAlgos_Djakstra.py)
+[top_sort_cycle_detection.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/top_sort_cycle_detection.py)
 <p>
     <em> Directed Graph </em> <img src="Pictures/practice.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
 # 5. Bfs, Dfs paths, practice
 [bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
+[bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
 
 
-
-
-
-## **Thank you for exploring my project!** 
+## **Thank you for exploring my Repo!** 
 If you'd like to learn more about my background and qualifications, please visit my [LinkedIn profile](https://www.linkedin.com/in/jankomitrovic)
