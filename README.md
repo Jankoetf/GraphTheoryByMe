@@ -2,12 +2,12 @@
 Graphs Graphs Graphs
 
 # 1. Ford Furkenson algorithm
-[Ford_Furksenon.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Ford_Furksenon.py)
+[fordFurksenon.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/fordFurksenon.py)
 
 - Example
 
 <p>
-    <em>Small Regular Labyrinth</em> <img src="Pictures/Lavirint/regular.PNG" alt="Alt Text" width="228" height="126" alt> 
+    <em>Small Regular Labyrinth</em> <img src="Pictures/ford Furksenon/s1.PNG" alt="Alt Text" width="228" height="126" alt> 
     <em>Labyrinth without Path</em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
 </p>
 <p>
