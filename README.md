@@ -1,7 +1,21 @@
 # GraphTheoryByMe
 Graphs Graphs Graphs
 
-# 1. Comparing DFS, BFS, A* on labyrinth problem
+# 1. Ford Furkenson algorithm
+[Ford_Furksenon.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Ford_Furksenon.py)
+
+- Example
+
+<p>
+    <em>Small Regular Labyrinth</em> <img src="Pictures/Lavirint/regular.PNG" alt="Alt Text" width="228" height="126" alt> 
+    <em>Labyrinth without Path</em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
+</p>
+<p>
+    <em>Big Labyrint</em> <img src="Pictures/Lavirint/big.PNG" alt="Alt Text" width="228" height="126" alt>
+    <em>Small empty labyrinth</em> <img src="Pictures/Lavirint/empty.PNG" alt="Alt Text" width="228" height="126" alt>
+</p>
+
+# 2. Comparing DFS, BFS, A* on labyrinth problem
 [Labyrinth.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/lavirint.py)
 
 -  Simulation Results:
@@ -13,25 +27,19 @@ Graphs Graphs Graphs
 | big many obstacles | 89  | 93  | 28 |
 | small empty        | 895 | 154 |  9 |
 
+- start is represented as 304, end with 707
+-  1 means obstacle, 0 means no obstacle
+
+<p>
+    <em>Small Regular Labyrinth</em> <img src="Pictures/Lavirint/regular.PNG" alt="Alt Text" width="228" height="126" alt> 
+    <em>Labyrinth without Path</em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
+</p>
+<p>
+    <em>Big Labyrint</em> <img src="Pictures/Lavirint/big.PNG" alt="Alt Text" width="228" height="126" alt>
+    <em>Small empty labyrinth</em> <img src="Pictures/Lavirint/empty.PNG" alt="Alt Text" width="228" height="126" alt>
+</p>
 
 
-# 2. Ford Furkenson algorithm
-[Feature_engeeniring.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_Feature_Ingineering.ipynb)
-- Corelation analysis
-<img src="Screeens/corelation.PNG" alt="Alt Text" width="428" height="256">
-
-- Feature importance:
-
-From many different models we get that playtime_last_28_days is most important feature.
-<img src="Screeens/importance.PNG" alt="Alt Text" width="512" height="256">
-
-- Feature Selection: 
-
-After analysing corelations between features we get that two feature must be excluded from dataset, these are cohort_season because high corealtion with club_id(and club_id is required for submition), average_stars_top_14_players because of high corelation with average_stars_top_11_players(average_stars_top_11_players have higher importance)
-
-- Feature Engeeniring
-
-Because every feature have strong connection with league_id and predictions should have meaningfull order in the same league, feature engeeniring consist of averaging every feature by league average, and also droping old features except league_id and club_id. [Copy_of_package.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Copy_of_Package.ipynb)
 
 # 3. Weighted graph, Djakstra algo
 [Regression.ipnb](https://github.com/Jankoetf/Nordeus_data_science_challenge/blob/main/Top_eleven_regression.ipynb)
