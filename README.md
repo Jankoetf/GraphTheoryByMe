@@ -65,10 +65,15 @@ On this specific example we get that maximum 2 workers can get a job.
     <em> Directed Graph </em> <img src="Pictures/bfs_dfs_path.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
-# 5. Bfs, Dfs paths, practice
-[bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
-[bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
+# 5. 2 Best picks task
+[top_sort_cycle_detection.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/top_sort_cycle_detection.py)
+<p>
+    <em> Directed Graph </em> <img src="Pictures/bfs_dfs_path.PNG" alt="Alt Text" width="388" height="256" alt>
+</p>
 
+# 6. Bfs, Dfs paths, Practice problems
+[bfs_dfs_path.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/bfs_dfs_path.py)
+[Graphs_practice.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/Graphs_practice.py)
 
 ## **Thank you for exploring my Repo!** 
 If you'd like to learn more about my background and qualifications, please visit my [LinkedIn profile](https://www.linkedin.com/in/jankomitrovic)
