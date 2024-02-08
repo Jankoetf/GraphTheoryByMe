@@ -9,13 +9,13 @@ Graphs Graphs Graphs
 - Every job can have at max one worker doing it
 - What is a maximum number of workers that can get a job?
 <p>
-    <img src="Pictures/Ford%20Furkenson/s1.PNG" alt="Alt Text" width="428" height="286" alt> 
+    <img src="Pictures/Ford%20Furkenson/s1.PNG" alt="Alt Text" width="388" height="256" alt> 
 </p>
 
 - First Iteration
 <p>
-    <img src="Pictures/Ford%20Furkenson/s2.PNG" alt="Alt Text" width="428" height="286" alt> 
-    <img src="Pictures/Ford%20Furkenson/s3.PNG" alt="Alt Text" width="428" height="286" alt> 
+    <img src="Pictures/Ford%20Furkenson/s2.PNG" alt="Alt Text" width="388" height="256" alt> 
+    <img src="Pictures/Ford%20Furkenson/s3.PNG" alt="Alt Text" width="388" height="256" alt> 
 </p>
 
 - Second Iteration
@@ -53,9 +53,9 @@ On this specific example we get that maximum 2 workers can get a job.
 
 
 # 3. Weighted graph, Djakstra algo
-[Labyrinth.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/lavirint.py)
+[GraphAlgos_Djakstra.py.py](https://github.com/Jankoetf/GraphTheoryByMe/blob/main/GraphAlgos_Djakstra.py.py)
 <p>
-    <em> Weighted Graph </em> <img src="Pictures/Lavirint/no.PNG" alt="Alt Text" width="228" height="126" alt>
+    <em> Weighted Graph </em> <img src="Pictures/djakstra.PNG" alt="Alt Text" width="388" height="256" alt>
 </p>
 
 
