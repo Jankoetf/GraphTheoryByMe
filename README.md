@@ -20,8 +20,8 @@ Graphs Graphs Graphs
 
 - Second Iteration
 <p>
-    <img src="Pictures/Ford%20Furkenson/s4.PNG" alt="Alt Text" width="428" height="286" alt> 
-    <img src="Pictures/Ford%20Furkenson/s5.PNG" alt="Alt Text" width="428" height="286" alt> 
+    <img src="Pictures/Ford%20Furkenson/s4.PNG" alt="Alt Text" width="388" height="256" alt> 
+    <img src="Pictures/Ford%20Furkenson/s5.PNG" alt="Alt Text" width="388" height="256" alt> 
 </p>
 On this specific example we get that maximum 2 workers can get a job.
 
